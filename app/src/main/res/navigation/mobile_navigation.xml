@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.gallery.GalleryFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_shares"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_shares"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_slist"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.StockList.StockListFragment"
+        android:label="@string/menu_slist"
+        tools:layout="@layout/fragment_slist" />
+
+    <fragment
+        android:id="@+id/nav_pred"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.PredictPrice.PredictPriceFragment"
+        android:label="@string/menu_pred"
+        tools:layout="@layout/fragment_predict" />
+
+    <fragment
+        android:id="@+id/nav_cc"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.CurrencyConvert.CurrencyConvertFragment"
+        android:label="@string/menu_cc"
+        tools:layout="@layout/fragment_cc" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.News.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="moin.miley.cse489.stock_prediction_project.ui.AboutUs.AboutUsFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/layout_aboutus" />
+
+</navigation>
